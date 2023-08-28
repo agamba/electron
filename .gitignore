@@ -2,6 +2,8 @@ electron-vite-react/node_modules
 electron-vite-vue/node_modules
 electron-vite-preact/node_modules
 
+.DS_Store
+
 # Logs
 logs
 *.log
