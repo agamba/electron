@@ -1,0 +1,16 @@
+{
+  "name": "electron-context-bridge-example",
+  "productName": "electron-context-bridge-example",
+  "description": "Test Electron contextBridge and ipcRenderer",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "agamba",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "25.4.0"
+  }
+}

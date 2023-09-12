@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IPC Example</title>
+  </head>
+  <body>
+    <h3>Note</h3>
+    open "View -> Toogle Developer Tools -> Console", to view detailed messages.
+    <h3>Send Message to Main</h3>
+    <input type="text" id="myMsg" />
+    <br />
+    <button id="myBtn">Send Message (ipcRenderer.invoke)</button>
+    <hr />
+    Response:
+    <br /><br />
+    <code id="resCode"></code>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
