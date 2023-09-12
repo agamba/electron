@@ -1,4 +1,4 @@
-# Test Electron communication between Main and Renderer Processes
+# Electron communication between Main and Renderer Processes
 
 This test application provides an example of the current approaches in communication between Main process, which in on the sisde of Nodejs, and te Renderer Process run in the Electron container.
 
