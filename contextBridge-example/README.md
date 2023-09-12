@@ -2,6 +2,13 @@
 
 This test application provides an example of the current approaches in communication between Main process, which in on the sisde of Nodejs, and te Renderer Process run in the Electron container.
 
+# Installation
+
+- npm install
+- npm start
+
+# File Structure
+
 The role(s) of each of the files is as follows:
 
 ## main.js
@@ -16,6 +23,12 @@ The role(s) of each of the files is as follows:
 
 - The preload.js file in responsible of exposing nodejs modules to Electron's Renderer Process. For this reason, this file has access to **require** method
 - This file must define the Inter-Process Communication(IPC) API that will be used by the **renderer.js** file
+
+## renderer.js
+
+- this file contains the js functmionality specific to the renderer process.
+- in this context there is no access to nodejs modules
+- the functions in this file have access to the API exposed to the rendered process in the file **preload.js**
 
 ## index.html
 
